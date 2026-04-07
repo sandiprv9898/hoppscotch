@@ -277,6 +277,7 @@ export class TeamService implements UserDataHandler, OnModuleInit {
           },
         },
       },
+      orderBy: [{ name: 'asc' }, { id: 'asc' }],
     });
 
     return teams;
